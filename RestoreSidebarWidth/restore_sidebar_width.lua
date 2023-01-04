@@ -3,7 +3,10 @@
 	Restore Sidebar Width
 	  - Saves Sidebar's Width On Editor Quit
 	  - Loads Sidebar's Width On Editor Open
-	  - Plugin Path: $USERDIR/.treeview_width.lua
+	  - Plugin Saves The Width Here: $USERDIR/.treeview_width.lua
+
+	Configuration
+	  - To Enable The Plugin (by default it is enabled): `config.plugins.restore_sidebar_width = true`
 ]]
 
 local core = require "core"
