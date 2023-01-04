@@ -1,8 +1,8 @@
 # Lite XL Plugins
 some plugins i wrote for lite-xl
 
-- [FontPreview](./FontPreview) - preview .ttf & .otf files right in your editor.
-- [RestoreSidebarWidth](./RestoreSidebarWidth) - saves & restores the sidebar's width on Lite XL close/open
+- [FontPreview](./FontPreview) ( [src](./FontPreview/fontpreview.lua?raw=1) ) - preview .ttf & .otf files right in your editor.
+- [RestoreSidebarWidth](./RestoreSidebarWidth) ( [src](./RestoreSidebarWidth/restore_sidebar_width.lua?raw=1) ) - saves & restores the sidebar's width on Lite XL close/open
 
 ---
 ## License
