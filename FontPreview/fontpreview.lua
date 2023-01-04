@@ -39,8 +39,8 @@ if config.plugins.fontpreview.enabled then
 		local fname = doc["filename"]
 		local abs_fname = doc["abs_filename"]
 		if
-			string.lower(string.sub(fname, -4)) == ".ttf" or
-			string.lower(string.sub(fname, -4)) == ".otf"
+			(fname ~= nil and fname ~= '') and
+			(string.lower(string.sub(fname, -4)) == ".ttf" or string.lower(string.sub(fname, -4)) == ".otf")
 		then
 			style["__font_preview_for_" .. abs_fname] = renderer.font.load(abs_fname, config.plugins.fontpreview.size)
 			self.font = "__font_preview_for_" .. abs_fname
