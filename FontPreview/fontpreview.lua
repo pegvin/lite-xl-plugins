@@ -1,4 +1,13 @@
 -- mod-version:3
+--[[
+	FontPreview - preview .ttf & .otf files right in your editor
+	Configuration:
+	  - config.plugins.fontpreview.size = 16          -- Preview Font Size (Default code_font size)
+	  - config.plugins.fontpreview.enabled = true     -- Plugin is Enabled Or Not (Default false)
+	  - config.plugins.fontpreview.editable = false   -- Preview Text is Editable or Not (Default false)
+	  - config.plugins.fontpreview.default_text = { "New Preview Text!" } -- Default Preview Text
+]]
+
 local core = require "core"
 local Doc = require "core.doc"
 local style = require "core.style"
